@@ -1,0 +1,9 @@
+x=["payal","pooja","dixit"]
+print (x)
+print(x[1])
+
+
+
+//
+['payal', 'pooja', 'dixit']
+pooja
