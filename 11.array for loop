@@ -1,0 +1,11 @@
+x=["juice","sandwich","salad"]
+for i in x:
+    print(i)
+    
+    
+    //
+    
+    
+    juice
+sandwich
+salad
