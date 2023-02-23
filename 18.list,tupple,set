@@ -4,10 +4,11 @@ c={"kiwi","peach","lemon"}
 print(a)
 print(b)
 print(c)
-
+print(type(c))
 
 
 //
 ['apple', 'pineapple', 'litchi']
 ['grappes', 'cherry', 'orange']
 {'peach', 'kiwi', 'lemon'}
+<class 'set'>
