@@ -1,0 +1,13 @@
+a=list(("apple","pineapple","litchi"))
+b=["grappes","cherry","orange"]
+c={"kiwi","peach","lemon"}
+print(a)
+print(b)
+print(c)
+
+
+
+//
+['apple', 'pineapple', 'litchi']
+['grappes', 'cherry', 'orange']
+{'peach', 'kiwi', 'lemon'}
