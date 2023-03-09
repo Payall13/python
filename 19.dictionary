@@ -1,0 +1,37 @@
+a={"brand":"levi's","brand1":"nike"}
+print (a)
+print (len(a))
+print (type(a))
+print (a['brand'])
+
+
+//
+{'brand': "levi's", 'brand1': 'nike'}
+2
+<class 'dict'>
+levi's
+//
+
+
+a={"brand":"adidas","brand1":"skechers"}
+b=dict(sorted(a.items()))
+print(b)
+
+
+//
+{'brand': 'adidas', 'brand1': 'skechers'}
+//
+
+
+
+def myfunct(a):
+    for i in a:
+        print(i,a[i])
+pgdca={"div":"a","sem":"2"}
+myfunct (pgdca)
+ 
+ 
+ //
+ div a
+sem 2
+//
