@@ -1,3 +1,5 @@
+\\returning result\\
+
 def addnum (a,b):
     return a+b
 i=int(input("enter number"))
@@ -10,7 +12,7 @@ print(addnum(i,j))
   
   
   
-  
+  \\pass by object\\
   def main():
     num=1
     print(num)
@@ -26,6 +28,33 @@ main()
   1
   2
   1
+  
+ 
+ 
+  \\default argument\\
+ def main (a=20,b=20):
+    print(a+b)
+
+main (10,20)
+main()
+
+//30
+  40
+  
+  
+  
+  
+\\variable length\\
+
+def main(*args):
+    sum=0
+    for i in args:
+        sum+=i
+    print(sum)
+main(10,20,30,40,50)
+
+//150
+
   
   
 
