@@ -1,0 +1,20 @@
+\\ passing group of elements\\
+
+def testfunc(arg):
+    for i in arg:
+        print(i)
+lst=[x for x in input("enetr string:").split(',')]
+testfunc(lst)
+
+//enter a string:12
+12
+
+
+
+
+\\anonymous function\\
+
+addition=lambda a,b:a+b
+print(addition(10,20))
+
+//30
