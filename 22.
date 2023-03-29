@@ -1,0 +1,8 @@
+a={"brand":"adidas","brand1":"skechers"}
+b=dict(sorted(a.items()))
+print(b)
+
+
+//
+{'brand': 'adidas', 'brand1': 'skechers'}
+//
