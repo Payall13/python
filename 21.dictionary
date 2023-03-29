@@ -1,0 +1,13 @@
+a={"brand":"levi's","brand1":"nike"}
+print (a)
+print (len(a))
+print (type(a))
+print (a['brand'])
+
+
+//
+{'brand': "levi's", 'brand1': 'nike'}
+2
+<class 'dict'>
+levi's
+//
