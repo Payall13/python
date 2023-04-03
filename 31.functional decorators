@@ -1,0 +1,16 @@
+def greet(text):
+    return text.upper()
+def whispers(text):
+    return text.lower()
+def shout(func):
+    shouting=func("hello this is test")
+    print (shouting)
+shout(greet)
+shout(whispers)
+
+
+
+//
+HELLO THIS IS TEST
+hello this is test
+\\
